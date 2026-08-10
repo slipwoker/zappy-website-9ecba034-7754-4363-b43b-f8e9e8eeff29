@@ -1,0 +1,78 @@
+# StepUp Private Club — Generative Engine Optimization Map
+
+> StepUp Private Club is an exclusive real estate investment club that bridges entrepreneurs, contractors, and investors in Israel. The brand positions itself as a trusted gatekeeper — professionally vetting deals before presenting them to club members, with a strong emphasis on transparency, responsibility, and long-term relationships. The tone is prestigious, professional, and trustworthy, with a mission-driven identity ('Your Investment. Our Mission.'). The brand targets sophisticated investors seeking early-stage access to curated real estate opportunities, including fractional ownership, full apartment purchases, and pre-sale deals. The visual identity uses deep forest green (#1f4d3a) and warm gold (#c59b3d), evoking exclusivity, wealth, and reliability.
+
+---
+
+## Pages
+
+### בית
+https://stepup-private-club-9ecba034.zappy5.app
+מועדון השקעות נדל״ן אקסקלוסיבי המציע גישה מוקדמת לעסקאות מניבות בישראל. אנו בודקים כל עסקה בקפדנות כדי שתשקיעו בביטחון מלא. ההשקעה שלכם, השליחות שלנו.
+
+### תודה שפניתם אלינו | StepUp Private Club
+https://stepup-private-club-9ecba034.zappy5.app/thank-you
+StepUp Private Club - תודה שפניתם אלינו | StepUp Private Club
+
+## Legal & Policy
+
+### Privacy Policy
+https://stepup-private-club-9ecba034.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://stepup-private-club-9ecba034.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://stepup-private-club-9ecba034.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://stepup-private-club-9ecba034.zappy5.app
+- Endpoint: https://stepup-private-club-9ecba034.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About StepUp Private Club
+StepUp Private Club is an exclusive real estate investment club that bridges entrepreneurs, contractors, and investors in Israel. The brand positions itself as a trusted gatekeeper — professionally vetting deals before presenting them to club members, with a strong emphasis on transparency, responsibility, and long-term relationships. The tone is prestigious, professional, and trustworthy, with a mission-driven identity ('Your Investment. Our Mission.'). The brand targets sophisticated investors seeking early-stage access to curated real estate opportunities, including fractional ownership, full apartment purchases, and pre-sale deals. The visual identity uses deep forest green (#1f4d3a) and warm gold (#c59b3d), evoking exclusivity, wealth, and reliability.
+
+## Services/Products
+- שליש דירה
+- רכישת דירה שלמה
+- עסקאות פריסייל
+- הזדמנויות נבחרות
+- ליווי אישי למשקיעים
+- בדיקות מקצועיות לעסקאות
+
+## Target Audience
+- משקיעים, יזמים וקבלנים בתחום הנדל"ן
+- משקיעים, יזמים וקבלנים
+- אנשי עסקים בעלי הון עצמי גבוה
+
+## Industry
+Real Estate Investment Club
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://stepup-private-club-9ecba034.zappy5.app/sitemap.xml
+- Robots: https://stepup-private-club-9ecba034.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://stepup-private-club-9ecba034.zappy5.app/llms-full.txt
