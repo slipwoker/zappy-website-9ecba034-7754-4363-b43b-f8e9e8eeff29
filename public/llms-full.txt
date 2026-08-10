@@ -2,13 +2,13 @@
 
 StepUp Private Club is an exclusive real estate investment club that bridges entrepreneurs, contractors, and investors in Israel. The brand positions itself as a trusted gatekeeper — professionally vetting deals before presenting them to club members, with a strong emphasis on transparency, responsibility, and long-term relationships. The tone is prestigious, professional, and trustworthy, with a mission-driven identity ('Your Investment. Our Mission.'). The brand targets sophisticated investors seeking early-stage access to curated real estate opportunities, including fractional ownership, full apartment purchases, and pre-sale deals. The visual identity uses deep forest green (#1f4d3a) and warm gold (#c59b3d), evoking exclusivity, wealth, and reliability.
 
-Source: https://stepup-private-club-9ecba034.zappy5.app
+Source: https://example.com
 
 ---
 
 ## השקעת נדל״ן משתלמת — StepUp Private Club
 
-URL: https://stepup-private-club-9ecba034.zappy5.app
+URL: https://example.com
 Description: מועדון השקעות נדל״ן אקסקלוסיבי המציע גישה מוקדמת לעסקאות מניבות בישראל. אנו בודקים כל עסקה בקפדנות כדי שתשקיעו בביטחון מלא. ההשקעה שלכם, השליחות שלנו.
 
 השקעת נדל״ן משתלמת — StepUp Private Club
@@ -679,7 +679,7 @@ StepUp היא לא פלטפורמה חד-פעמית. אנחנו בונים קה�
 
 ## מדיניות פרטיות
 
-URL: https://stepup-private-club-9ecba034.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -945,7 +945,7 @@ StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן �
 
 ## הצהרת נגישות
 
-URL: https://stepup-private-club-9ecba034.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1220,7 +1220,7 @@ StepUp Private Club מחויבת להנגיש את השירותים לכלל ה�
 
 ## תנאי שימוש
 
-URL: https://stepup-private-club-9ecba034.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1514,7 +1514,7 @@ StepUp Private Club מספקת Real Estate Investment Club דרך האתר. הש
 
 ## תודה שפניתם אלינו | StepUp Private Club
 
-URL: https://stepup-private-club-9ecba034.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: StepUp Private Club - תודה שפניתם אלינו | StepUp Private Club
 
 תודה שפניתם אלינו | StepUp Private Club
