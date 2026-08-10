@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://example.com
+https://zappy-site-9ecba034-7754-4363-b43b.onrender.com
 מועדון השקעות נדל״ן אקסקלוסיבי המציע גישה מוקדמת לעסקאות מניבות בישראל. אנו בודקים כל עסקה בקפדנות כדי שתשקיעו בביטחון מלא. ההשקעה שלכם, השליחות שלנו.
 
 ### תודה שפניתם אלינו | StepUp Private Club
-https://example.com/thank-you
+https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/thank-you
 StepUp Private Club - תודה שפניתם אלינו | StepUp Private Club
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -35,8 +35,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://example.com
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com
+- Endpoint: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -73,6 +73,6 @@ Real Estate Investment Club
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/sitemap.xml
+- Robots: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/robots.txt
+- Flattened page text (for LLMs): https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/llms-full.txt

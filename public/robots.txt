@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/sitemap.xml
