@@ -7,44 +7,46 @@
 ## Pages
 
 ### בית
-https://zappy-site-9ecba034-7754-4363-b43b.onrender.com
+https://stepup-real.co.il
 מועדון השקעות נדל״ן אקסקלוסיבי המציע גישה מוקדמת לעסקאות מניבות בישראל. אנו בודקים כל עסקה בקפדנות כדי שתשקיעו בביטחון מלא. ההשקעה שלכם, השליחות שלנו.
 
 ### תודה שפניתם אלינו | StepUp Private Club
-https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/thank-you
+https://stepup-real.co.il/thank-you
 StepUp Private Club - תודה שפניתם אלינו | StepUp Private Club
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/privacy
+https://stepup-real.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/terms
+https://stepup-real.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/accessibility
+https://stepup-real.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Phone: 0545737742
+- Phone (tel): tel:0545737742
+- Address: ניסים אלוני 2, תל אביב
 
 ### Contact form
-- URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com
-- Endpoint: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/api/email/contact-form
+- URL: https://stepup-real.co.il
+- Endpoint: https://stepup-real.co.il/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
-  - `phone` (tel)
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
   - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
@@ -73,6 +75,6 @@ Real Estate Investment Club
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/sitemap.xml
-- Robots: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/robots.txt
-- Flattened page text (for LLMs): https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/llms-full.txt
+- Sitemap (XML): https://stepup-real.co.il/sitemap.xml
+- Robots: https://stepup-real.co.il/robots.txt
+- Flattened page text (for LLMs): https://stepup-real.co.il/llms-full.txt

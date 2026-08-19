@@ -2,13 +2,13 @@
 
 StepUp Private Club is an exclusive real estate investment club that bridges entrepreneurs, contractors, and investors in Israel. The brand positions itself as a trusted gatekeeper — professionally vetting deals before presenting them to club members, with a strong emphasis on transparency, responsibility, and long-term relationships. The tone is prestigious, professional, and trustworthy, with a mission-driven identity ('Your Investment. Our Mission.'). The brand targets sophisticated investors seeking early-stage access to curated real estate opportunities, including fractional ownership, full apartment purchases, and pre-sale deals. The visual identity uses deep forest green (#1f4d3a) and warm gold (#c59b3d), evoking exclusivity, wealth, and reliability.
 
-Source: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com
+Source: https://stepup-real.co.il
 
 ---
 
 ## השקעת נדל״ן משתלמת — StepUp Private Club
 
-URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com
+URL: https://stepup-real.co.il
 Description: מועדון השקעות נדל״ן אקסקלוסיבי המציע גישה מוקדמת לעסקאות מניבות בישראל. אנו בודקים כל עסקה בקפדנות כדי שתשקיעו בביטחון מלא. ההשקעה שלכם, השליחות שלנו.
 
 השקעת נדל״ן משתלמת — StepUp Private Club
@@ -626,9 +626,9 @@ StepUp היא לא פלטפורמה חד-פעמית. אנחנו בונים קה�
 
 - [business_email]
 
-- [business_phone]
+- 0545737742
 
-- [business_address]
+- ניסים אלוני 2, תל אביב
 
 
 
@@ -638,13 +638,9 @@ StepUp היא לא פלטפורמה חד-פעמית. אנחנו בונים קה�
 
 #### שעות פעילות
 
+- ימים א’–ה’ 08:00–17:00
 
-- ימים א'–ה' 09:00–18:00
-
-- יום ו' 09:00–13:00
-
-- שבת סגור
-
+- ימים ו’–שבת סגור
 
 
 
@@ -679,11 +675,10 @@ StepUp היא לא פלטפורמה חד-פעמית. אנחנו בונים קה�
 
 ## מדיניות פרטיות
 
-URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/privacy
+URL: https://stepup-real.co.il/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
-
 
 
 
@@ -738,7 +733,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 
-StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן על פרטיותכם. מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים ומגינים על המידע שלכם בעת השימוש באתר [business_website] ("השירות").
+StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן על פרטיותכם. מדיניות פרטיות זו מסבירה כיצד אנו אוספים, משתמשים ומגינים על המידע שלכם בעת השימוש באתר https://stepup-real.co.il ("השירות").
 
 
 ## 1. איסוף מידע
@@ -838,9 +833,9 @@ StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן �
 
 - אימייל: [business_email]
 
-- טלפון: [business_phone]
+- טלפון: 0545737742
 
-- כתובת: [business_address]
+- כתובת: ניסים אלוני 2, תל אביב
 
 
 
@@ -892,9 +887,9 @@ StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן �
 
 - [business_email]
 
-- [business_phone]
+- 0545737742
 
-- [business_address]
+- ניסים אלוני 2, תל אביב
 
 
 
@@ -904,13 +899,9 @@ StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן �
 
 #### שעות פעילות
 
+- ימים א’–ה’ 08:00–17:00
 
-- ימים א'–ה' 09:00–18:00
-
-- יום ו' 09:00–13:00
-
-- שבת סגור
-
+- ימים ו’–שבת סגור
 
 
 
@@ -945,11 +936,10 @@ StepUp Private Club ("החברה", "אנו", "שלנו") מחויבת להגן �
 
 ## הצהרת נגישות
 
-URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/accessibility
+URL: https://stepup-real.co.il/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
-
 
 
 
@@ -1112,7 +1102,7 @@ StepUp Private Club מחויבת להנגיש את השירותים לכלל ה�
 
 - אימייל: [business_email]
 
-- טלפון: [business_phone]
+- טלפון: 0545737742
 
 
 
@@ -1167,9 +1157,9 @@ StepUp Private Club מחויבת להנגיש את השירותים לכלל ה�
 
 - [business_email]
 
-- [business_phone]
+- 0545737742
 
-- [business_address]
+- ניסים אלוני 2, תל אביב
 
 
 
@@ -1179,13 +1169,9 @@ StepUp Private Club מחויבת להנגיש את השירותים לכלל ה�
 
 #### שעות פעילות
 
+- ימים א’–ה’ 08:00–17:00
 
-- ימים א'–ה' 09:00–18:00
-
-- יום ו' 09:00–13:00
-
-- שבת סגור
-
+- ימים ו’–שבת סגור
 
 
 
@@ -1220,11 +1206,10 @@ StepUp Private Club מחויבת להנגיש את השירותים לכלל ה�
 
 ## תנאי שימוש
 
-URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/terms
+URL: https://stepup-real.co.il/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
-
 
 
 
@@ -1410,9 +1395,9 @@ StepUp Private Club מספקת Real Estate Investment Club דרך האתר. הש
 
 - אימייל: [business_email]
 
-- טלפון: [business_phone]
+- טלפון: 0545737742
 
-- כתובת: [business_address]
+- כתובת: ניסים אלוני 2, תל אביב
 
 
 
@@ -1461,9 +1446,9 @@ StepUp Private Club מספקת Real Estate Investment Club דרך האתר. הש
 
 - [business_email]
 
-- [business_phone]
+- 0545737742
 
-- [business_address]
+- ניסים אלוני 2, תל אביב
 
 
 
@@ -1473,13 +1458,9 @@ StepUp Private Club מספקת Real Estate Investment Club דרך האתר. הש
 
 #### שעות פעילות
 
+- ימים א’–ה’ 08:00–17:00
 
-- ימים א'–ה' 09:00–18:00
-
-- יום ו' 09:00–13:00
-
-- שבת סגור
-
+- ימים ו’–שבת סגור
 
 
 
@@ -1514,7 +1495,7 @@ StepUp Private Club מספקת Real Estate Investment Club דרך האתר. הש
 
 ## תודה שפניתם אלינו | StepUp Private Club
 
-URL: https://zappy-site-9ecba034-7754-4363-b43b.onrender.com/thank-you
+URL: https://stepup-real.co.il/thank-you
 Description: StepUp Private Club - תודה שפניתם אלינו | StepUp Private Club
 
 תודה שפניתם אלינו | StepUp Private Club
@@ -1665,9 +1646,9 @@ Description: StepUp Private Club - תודה שפניתם אלינו | StepUp Pri
 
 - [business_email]
 
-- [business_phone]
+- 0545737742
 
-- [business_address]
+- ניסים אלוני 2, תל אביב
 
 
 
@@ -1677,13 +1658,9 @@ Description: StepUp Private Club - תודה שפניתם אלינו | StepUp Pri
 
 #### שעות פעילות
 
+- ימים א’–ה’ 08:00–17:00
 
-- ימים א'–ה' 09:00–18:00
-
-- יום ו' 09:00–13:00
-
-- שבת סגור
-
+- ימים ו’–שבת סגור
 
 
 
