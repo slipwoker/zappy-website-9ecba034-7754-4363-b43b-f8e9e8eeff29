@@ -5422,7 +5422,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 120px;
+  height: 50px;
   pointer-events: none;
   z-index: 5;
 }
@@ -5431,6 +5431,11 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.presale-section .presale-divider-svg path {
+  fill: var(--background-color, var(--background, var(--bg-light, #174D38))) !important;
+  stroke: var(--background-color, var(--background, var(--bg-light, #174D38))) !important;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
