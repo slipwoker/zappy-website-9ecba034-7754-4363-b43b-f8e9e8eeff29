@@ -5360,6 +5360,24 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 1.15rem;
   }
 }
+
+.stepup-opportunity .stepup-opportunity__card-header {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.stepup-opportunity .stepup-opportunity__building-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius-card, 12px);
+  display: block;
+}
+
+.stepup-opportunity .stepup-opportunity__card-title {
+  margin: 0;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
