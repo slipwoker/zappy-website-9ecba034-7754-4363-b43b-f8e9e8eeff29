@@ -5388,6 +5388,15 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   margin-left: auto;
   margin-right: auto;
 }
+
+.stepup-opportunity .stepup-opportunity__building-img {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
