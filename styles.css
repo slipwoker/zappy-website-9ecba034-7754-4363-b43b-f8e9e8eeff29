@@ -5378,6 +5378,16 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .stepup-opportunity .stepup-opportunity__card-title {
   margin: 0;
 }
+
+.stepup-opportunity .stepup-opportunity__card-header {
+  align-items: center;
+  text-align: center;
+}
+
+.stepup-opportunity .stepup-opportunity__building-img {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
