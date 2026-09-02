@@ -6171,6 +6171,11 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   transform: none !important;
 }
 }
+
+.index-hero-section h1, .index-hero-section h3, .index-hero-section p, .sp-challenge-section h2, .sp-challenge-section h3, .sp-challenge-section p, .index-features-section h2, .index-features-section h3, .index-features-section p, .presale-section h2, .presale-section p, #zappy-section-4 .stepup-opportunity h2, #zappy-section-4 .stepup-opportunity h3, #zappy-section-4 .stepup-opportunity p, .stepup-investment-tracks h2, .stepup-investment-tracks h3, .stepup-investment-tracks p, .index-story-section h2, .index-story-section p, .stepup-deal-selection h2, .stepup-deal-selection p, .index-cta-section h2, .index-cta-section p {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

@@ -1591,67 +1591,67 @@ if (document.readyState === 'complete') {
     }
 })();
 
-/* ZAPPY_CUSTOM_JS_START:c5a990dd07fc */
+/* ZAPPY_CUSTOM_JS_START:8f68601aa8b1 */
 (function () {
   function __zappyCustomInit() {
     try {
 (function () {
-  if (window.__zappyScrollFx) return;
-  window.__zappyScrollFx = true;
-
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var isMobile = window.innerWidth < 768;
 
-  function fastRaf(cb) {
-    return (window.requestAnimationFrame || function (f) { return setTimeout(f, 16); })(cb);
+  // Immediately clear any legacy blur stuck on headings (from the previous runtime)
+  function clearBlur() {
+    document.querySelectorAll('h1, h2, h3, [class*="title"], [class*="headline"]').forEach(function (el) {
+      el.style.filter = 'none';
+      el.style.webkitFilter = 'none';
+    });
+  }
+  clearBlur();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', clearBlur);
   }
 
   function setBase(el) {
-    // Base state = hidden. Only applied via a class so CSS controls the visual.
     el.classList.add('zrx');
   }
 
-  function revealEl(el, d, y, blur) {
+  function revealEl(el, d, y) {
     el.style.transition =
       'opacity 0.9s cubic-bezier(0.22,1,0.36,1) ' + d + 's, ' +
-      'transform 1.1s cubic-bezier(0.22,1,0.36,1) ' + d + 's, ' +
-      'filter 1s cubic-bezier(0.22,1,0.36,1) ' + d + 's';
+      'transform 1.05s cubic-bezier(0.22,1,0.36,1) ' + d + 's';
     el.style.transform = 'translateY(0) scale(1)';
     el.style.opacity = '1';
-    if (blur) el.style.filter = 'blur(0px)';
+    el.style.filter = 'none';
   }
 
-  // ---------- Reveal groups ----------
   var sections = document.querySelectorAll('main > section, main > [class*="section"]');
-  sections.forEach(function (sec, i) {
-    if (!sec || sec.__zrxSet) return;
-    sec.__zrxSet = true;
+  sections.forEach(function (sec) {
+    if (!sec || sec.__leakSet) return;
+    sec.__leakSet = true;
 
-    // Section-level choreography groups
     var heads = sec.querySelectorAll('h1, h2, [class*="title"], [class*="headline"]');
-    var paras = sec.querySelectorAll('p, [class*="subtitle"], [class*="body"], [class*="text"], [class*="description"]');
-    var cards = sec.querySelectorAll('[class*="card"], [class*="item"], [class*="feature"], [class*="track"], [class*="pillar"], [class*="pillar"], li[data-grid]');
-    var imgs = sec.querySelectorAll('img, figure, [class*="media"], [class*="image"], [class*="img"]');
-    var icons = sec.querySelectorAll('svg, [class*="icon"], [class*="badge"]');
+    var paras = sec.querySelectorAll('p, [class*="body"], [class*="text"], [class*="description"]');
+    var cards = sec.querySelectorAll('[class*="card"], [class*="item"], [class*="track"], [class*="pillar"]');
+    var imgs = sec.querySelectorAll('img, figure, [class*="media"], [class*="image"]');
+    var icons = sec.querySelectorAll('svg, [class*="icon"]');
 
     function prep(nodes, kind) {
       nodes.forEach(function (n) {
-        if (n.__zrxSet) return;
-        n.__zrxSet = true;
+        if (n.__leakSet) return;
+        n.__leakSet = true;
         setBase(n);
         if (kind === 'img') {
-          n.style.transform = 'translateY(36px) scale(0.96)';
+          n.style.transform = 'translateY(32px) scale(0.97)';
           n.style.opacity = '0';
-          n.style.willChange = 'transform, opacity';
         } else if (kind === 'card') {
-          n.style.transform = 'translateY(40px) scale(0.97)';
+          n.style.transform = 'translateY(36px) scale(0.97)';
           n.style.opacity = '0';
         } else if (kind === 'head') {
-          n.style.transform = 'translateY(28px)';
+          n.style.transform = 'translateY(24px)';
           n.style.opacity = '0';
-          n.style.filter = 'blur(8px)';
+          n.style.filter = 'none'; // NO blur — keep text crisp
         } else {
-          n.style.transform = 'translateY(22px)';
+          n.style.transform = 'translateY(20px)';
           n.style.opacity = '0';
         }
       });
@@ -1666,67 +1666,30 @@ if (document.readyState === 'complete') {
       entries.forEach(function (en) {
         if (!en.isIntersecting) return;
         io.disconnect();
-        var d = 0;
-        heads.forEach(function (n, j) { revealEl(n, d, 28); d += 0.06; });
-        paras.forEach(function (n) { revealEl(n, 0.18 + (d * 0.02)); });
-        cards.forEach(function (n, j) { revealEl(n, 0.1 + j * 0.09, 40); });
-        imgs.forEach(function (n, j) { revealEl(n, 0.1 + j * 0.12, 36); });
-        icons.forEach(function (n, j) { revealEl(n, 0.12 + j * 0.05, 22); });
+        heads.forEach(function (n, j) { revealEl(n, j * 0.06); });
+        paras.forEach(function (n, j) { revealEl(n, 0.18 + j * 0.04); });
+        cards.forEach(function (n, j) { revealEl(n, 0.1 + j * 0.09); });
+        imgs.forEach(function (n, j) { revealEl(n, 0.1 + j * 0.12); });
+        icons.forEach(function (n, j) { revealEl(n, 0.12 + j * 0.05); });
       });
-    }, { threshold: isMobile ? 0.12 : 0.18, rootMargin: '0px 0px -8% 0px' });
+    }, { threshold: isMobile ? 0.1 : 0.15, rootMargin: '0px 0px -6% 0px' });
     io.observe(sec);
   });
 
-  // ---------- Subtle parallax on hero bg + images ----------
-  if (!reduceMotion && !isMobile) {
-    var bg = document.querySelector('.index-hero-section__bg-image, [class*="hero"] img, [class*="bg-image"]');
-    var parallaxEls = document.querySelectorAll('[class*="media"] img, [class*="photo"], [class*="image"]:not([class*="bg"])');
-    var ticking = false;
-    function onScroll() {
-      if (ticking) return;
-      ticking = true;
-      fastRaf(function () {
-        ticking = false;
-        var y = window.scrollY || window.pageYOffset;
-        if (bg && y < window.innerHeight) {
-          bg.style.transform = 'translateY(' + (y * 0.18) + 'px) scale(1.05)';
-        }
-        parallaxEls.forEach(function (el) {
+  if (reduceMotion || true) {
+    // Final safety: ensure nothing remains at opacity 0 or blurred after load, even if observer misses
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        document.querySelectorAll('.zrx').forEach(function (el) {
           var r = el.getBoundingClientRect();
-          var vh = window.innerHeight;
-          if (r.top < vh && r.bottom > 0) {
-            var off = (r.top + r.height / 2 - vh / 2) * -0.06;
-            el.style.transform = 'translateY(' + off + 'px)';
+          if (r.top < window.innerHeight) {
+            el.style.transition = 'none';
+            el.style.transform = 'none';
+            el.style.opacity = '1';
+            el.style.filter = 'none';
           }
         });
-      });
-    }
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
-  }
-
-  // ---------- Magnetic buttons (subtle) ----------
-  if (!reduceMotion && !isMobile && window.matchMedia('(pointer: fine)').matches) {
-    document.querySelectorAll('a.btn, button, .btn, [class*="btn"]').forEach(function (b) {
-      b.addEventListener('mousemove', function (e) {
-        var r = b.getBoundingClientRect();
-        var mx = (e.clientX - r.left - r.width / 2) * 0.12;
-        var my = (e.clientY - r.top - r.height / 2) * 0.18;
-        b.style.transform = 'translate(' + mx + 'px,' + my + 'px)';
-      });
-      b.addEventListener('mouseleave', function () {
-        b.style.transform = '';
-      });
-    });
-  }
-
-  // Honour reduced motion: run a final pass that forces everything visible/clean
-  if (reduceMotion) {
-    document.querySelectorAll('.zrx').forEach(function (el) {
-      el.style.transition = 'none';
-      el.style.transform = 'none';
-      el.style.opacity = '1';
-      el.style.filter = 'none';
+      }, 300);
     });
   }
 })();
@@ -1740,7 +1703,7 @@ if (document.readyState === 'complete') {
     __zappyCustomInit();
   }
 })();
-/* ZAPPY_CUSTOM_JS_END:c5a990dd07fc */
+/* ZAPPY_CUSTOM_JS_END:8f68601aa8b1 */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
