@@ -6030,6 +6030,29 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   line-height: 1 !important;
   width: auto !important;
 }
+
+.index-hero-section .index-hero-section__btn {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
+  line-height: 1 !important;
+}
+
+.index-hero-section .index-hero-section__btn span {
+  display: inline !important;
+  line-height: 1 !important;
+}
+
+.index-hero-section .index-hero-section__btn svg {
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+  vertical-align: middle !important;
+  align-self: center !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
