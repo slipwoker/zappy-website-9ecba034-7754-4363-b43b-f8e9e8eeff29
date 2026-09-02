@@ -32,6 +32,7 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
+- Email: Moshe@Stepup-real.co.il
 - Phone: 0545737742
 - Phone (tel): tel:0545737742
 - Address: ניסים אלוני 2, תל אביב
