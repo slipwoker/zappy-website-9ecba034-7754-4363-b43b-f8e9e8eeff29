@@ -714,6 +714,262 @@
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <!-- Mickidum Accessibility Toolbar lazy-loaded by runtime -->
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-stats-section {
+  position: relative;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 16px;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.index-stats-section .index-stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+/* ---- Row 1: Value Pillars Grid ---- */
+.index-stats-section .index-stats-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.index-stats-section .index-stats-pillar-card {
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 32px 28px;
+  box-shadow: 0 8px 32px rgba(26, 46, 34, 0.09);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.index-stats-section .index-stats-pillar-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(26, 46, 34, 0.14);
+}
+
+/* Gold top accent line */
+.index-stats-section .index-stats-pillar-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--secondary), var(--accent));
+  border-radius: 0 0 4px 4px;
+}
+
+.index-stats-section .index-stats-card-number {
+  position: absolute;
+  top: 24px;
+  left: 28px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--border-light);
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.index-stats-section .index-stats-icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(23, 77, 56, 0.08);
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.index-stats-section .index-stats-card-content h3 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: var(--text-dark);
+}
+
+.index-stats-section .index-stats-card-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ---- Gold Divider ---- */
+.index-stats-section .index-stats-gold-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--secondary), transparent);
+  margin: 48px 0;
+}
+
+/* ---- Row 2: Testimonials Grid ---- */
+.index-stats-section .index-stats-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.index-stats-section .index-stats-quote-card {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 32px 28px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.index-stats-section .index-stats-quote-card:hover {
+  border-color: var(--secondary);
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 32px rgba(26, 46, 34, 0.06);
+}
+
+.index-stats-section .index-stats-quote-mark {
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--secondary);
+  opacity: 0.4;
+  margin-bottom: 12px;
+  font-family: 'Georgia', serif;
+  pointer-events: none;
+  user-select: none;
+}
+
+.index-stats-section .index-stats-quote-card blockquote {
+  margin: 0;
+}
+
+.index-stats-section .index-stats-quote-card blockquote p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.index-stats-section .index-stats-quote-card figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 1px solid var(--border-light);
+  padding-top: 16px;
+}
+
+.index-stats-section .index-stats-author {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.4;
+}
+
+.index-stats-section .index-stats-role {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ---- Supporting Image (Decorative) ---- */
+.index-stats-section .index-stats-supporting-img {
+  position: absolute;
+  bottom: 20px;
+  left: -40px;
+  width: 280px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 16px 48px rgba(26, 46, 34, 0.18);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.85;
+  filter: saturate(0.9);
+}
+
+/* ---- Responsive Breakpoints ---- */
+@media (max-width: 1024px) {
+  .index-stats-section .index-stats-pillars-grid,
+  .index-stats-section .index-stats-testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .index-stats-section .index-stats-supporting-img {
+    width: 220px;
+    left: -30px;
+    bottom: 40px;
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-stats-section {
+    padding: 60px 16px;
+  }
+
+  .index-stats-section .index-stats-pillars-grid,
+  .index-stats-section .index-stats-testimonials-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .index-stats-section .index-stats-pillar-card {
+    padding: 24px 20px;
+  }
+
+  .index-stats-section .index-stats-card-number {
+    top: 20px;
+    left: 20px;
+    font-size: 1rem;
+  }
+
+  .index-stats-section .index-stats-icon-badge {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+
+  .index-stats-section .index-stats-gold-divider {
+    margin: 32px 0;
+  }
+
+  .index-stats-section .index-stats-quote-card {
+    padding: 24px 20px;
+  }
+
+  .index-stats-section .index-stats-quote-mark {
+    font-size: 3rem;
+  }
+
+  /* Hide decorative image on mobile to avoid clutter */
+  .index-stats-section .index-stats-supporting-img {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .index-stats-section {
+    padding: 48px 12px;
+  }
+  .index-stats-section .index-stats-pillar-card,
+  .index-stats-section .index-stats-quote-card {
+    padding: 20px 16px;
+  }
+  .index-stats-section .index-stats-card-content h3 {
+    font-size: 1.2rem;
+  }
+}
+</style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 :root{--nav-bg:#174D38}.navbar{background-color:#174D38!important}
@@ -1714,105 +1970,98 @@ find the opportunity<br>We build the solution<br>You just StepUp</h1>
   </div>
 </section>
 
-<section data-band-index="5" id="stats" class="index-stats-section" data-layout-spec="בית-stats">
-  <div class="index-stats-section__container">
+<section class="index-stats-section" data-layout-spec="בית-stats" id="stats">
+  <div class="index-stats-container">
     
-    <!-- Stats Row -->
-    <div class="index-stats-section__stats-grid zappy-preserve-css-grid" id="zappy-auto-grid-1787227787175-3ndo8v" data-zappy-auto-grid="true" data-original-item-width="384" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 384px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 384px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+    <!-- Row 1: Value Pillars -->
+    <div class="index-stats-pillars-grid">
       
-      <article class="index-stats-section__stat-card" data-grid-item-index="0">
-        <span class="index-stats-section__stat-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 4L20 10H12L16 4Z" fill="currentColor"></path>
-            <rect x="10" y="12" width="12" height="14" rx="2" stroke="currentColor" stroke-width="2"></rect>
-            <path d="M14 18V22M18 18V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </span>
-        <h3 class="index-stats-section__stat-title">בחינה מקצועית</h3>
-        <p class="index-stats-section__stat-desc">כל עסקה מוצגת לחברי המועדון רק לאחר שעברה תהליך בדיקה יסודי ומקיף על ידי הצוות המקצועי שלנו.</p>
+      <!-- Card 1 -->
+      <article class="index-stats-pillar-card">
+        <span class="index-stats-card-number">01</span>
+        <div class="index-stats-icon-badge">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg>
+        </div>
+        <div class="index-stats-card-content">
+          <h3>בחינה מקצועית</h3>
+          <p>כל עסקה עוברת סינון קפדני על ידי צוות המומחים שלנו. אנו בוחנים את היזם, הנכס והתכנית העסקית לעומק, כדי שתקבלו רק הזדמנויות שעומדות בסטנדרטים הגבוהים ביותר של כדאיות ובטיחות.</p>
+        </div>
       </article>
 
-      <article class="index-stats-section__stat-card" data-grid-item-index="1">
-        <span class="index-stats-section__stat-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"></circle>
-            <path d="M10 16H22M16 10V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </span>
-        <h3 class="index-stats-section__stat-title">גישה מוקדמת</h3>
-        <p class="index-stats-section__stat-desc">אנו פועלים לחבר את חברי המועדון להזדמנויות בשלבים הראשונים של הפרויקט, כאשר קיימת התאמה מתאימה.</p>
+      <!-- Card 2 -->
+      <article class="index-stats-pillar-card">
+        <span class="index-stats-card-number">02</span>
+        <div class="index-stats-icon-badge">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        </div>
+        <div class="index-stats-card-content">
+          <h3>גישה מוקדמת</h3>
+          <p>היו הראשונים להיחשף להזדמנויות הנדל"ן המבטיחות ביותר. חברי המועדון נהנים מגישה בלעדית לעסקאות אוף-מרקט ופרה-סייל, לפני שהן מגיעות לשוק הרחב.</p>
+        </div>
       </article>
 
-      <article class="index-stats-section__stat-card" data-grid-item-index="2">
-        <span class="index-stats-section__stat-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 24V16C8 11.5817 11.5817 8 16 8V8C20.4183 8 24 11.5817 24 16V24" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M4 24H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <circle cx="16" cy="21" r="3" stroke="currentColor" stroke-width="2"></circle>
-          </svg>
-        </span>
-        <h3 class="index-stats-section__stat-title">ליווי אישי</h3>
-        <p class="index-stats-section__stat-desc">הצוות שלנו מלווה כל משקיע לאורך התהליך כולו — משלב ההיכרות עם העסקה ועד למימוש ההשקעה.</p>
+      <!-- Card 3 -->
+      <article class="index-stats-pillar-card">
+        <span class="index-stats-card-number">03</span>
+        <div class="index-stats-icon-badge">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <div class="index-stats-card-content">
+          <h3>ליווי אישי</h3>
+          <p>אתם לא לבד בתהליך. צוות המועדון מלווה אתכם בכל שלב – החל מבחירת ההשקעה ועד למימושה – בשקיפות מלאה, עם דיווחים שוטפים וזמינות גבוהה לכל שאלה.</p>
+        </div>
       </article>
 
     </div>
 
-    <!-- Testimonials Row -->
-    <div class="index-stats-section__testimonials-grid zappy-preserve-css-grid" id="zappy-auto-grid-1787227787184-1kj445" data-zappy-auto-grid="true" data-original-item-width="384" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 384px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 384px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+    <!-- Gold Divider -->
+    <div class="index-stats-gold-divider" role="separator" aria-hidden="true"></div>
+
+    <!-- Row 2: Testimonials -->
+    <div class="index-stats-testimonials-grid">
       
-      <figure class="index-stats-section__testimonial-card" data-grid-item-index="0">
-        <svg class="index-stats-section__quote-mark" data-element-type="icon" data-icon-type="svg" width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 28V16C0 9.37258 5.37258 4 12 4H16V12H12C9.79086 12 8 13.7909 8 16V28H0Z" fill="currentColor"></path>
-          <path d="M20 28V16C20 9.37258 25.3726 4 32 4H36V12H32C29.7909 12 28 13.7909 28 16V28H20Z" fill="currentColor"></path>
-        </svg>
-        <blockquote class="index-stats-section__testimonial-text">
-          "השקיפות וההסברים המקצועיים שקיבלתי מ-StepUp הם מה ששיכנעו אותי להצטרף. הרגשתי שאני מבין בדיוק במה אני משקיע, בלי הפתעות."
+      <!-- Testimonial 1 -->
+      <figure class="index-stats-quote-card">
+        <div class="index-stats-quote-mark" aria-hidden="true">“</div>
+        <blockquote>
+          <p>ההצטרפות למועדון הייתה אחת ההחלטות הפיננסיות הטובות ביותר שעשיתי. רמת הבדיקה והשקיפות שהם מספקים נתנה לי ביטחון להשקיע סכומים משמעותיים בעסקאות שלא הייתי נחשף אליהן אחרת.</p>
         </blockquote>
-        <figcaption class="index-stats-section__testimonial-author">
-          <span class="index-stats-section__author-name">חבר מועדון</span>
-          <span class="index-stats-section__author-role">משקיע נדל"ן</span>
+        <figcaption>
+          <span class="index-stats-author">אבי כהן</span>
+          <span class="index-stats-role">יזם ומשקיע נדל"ן</span>
         </figcaption>
       </figure>
 
-      <figure class="index-stats-section__testimonial-card" data-grid-item-index="1">
-        <svg class="index-stats-section__quote-mark" data-element-type="icon" data-icon-type="svg" width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 28V16C0 9.37258 5.37258 4 12 4H16V12H12C9.79086 12 8 13.7909 8 16V28H0Z" fill="currentColor"></path>
-          <path d="M20 28V16C20 9.37258 25.3726 4 32 4H36V12H32C29.7909 12 28 13.7909 28 16V28H20Z" fill="currentColor"></path>
-        </svg>
-        <blockquote class="index-stats-section__testimonial-text">
-          "הגעתי להזדמנויות שלא הייתי מוצא לבד. הצוות עושה עבודה יסודית בסינון העסקאות, וזה נותן לי ביטחון להשקיע."
+      <!-- Testimonial 2 -->
+      <figure class="index-stats-quote-card">
+        <div class="index-stats-quote-mark" aria-hidden="true">“</div>
+        <blockquote>
+          <p>מה שמייחד את StepUp הוא היחס האישי. הם לא רק מציגים עסקאות, הם באמת מבינים את הצרכים שלי ומתאימים לי את ההזדמנויות הנכונות. תחושה של שותפות אמיתית לדרך.</p>
         </blockquote>
-        <figcaption class="index-stats-section__testimonial-author">
-          <span class="index-stats-section__author-name">חברת מועדון</span>
-          <span class="index-stats-section__author-role">יזמית נדל"ן</span>
+        <figcaption>
+          <span class="index-stats-author">מיכל לוי</span>
+          <span class="index-stats-role">רואת חשבון</span>
         </figcaption>
       </figure>
 
-      <figure class="index-stats-section__testimonial-card" data-grid-item-index="2">
-        <svg class="index-stats-section__quote-mark" data-element-type="icon" data-icon-type="svg" width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 28V16C0 9.37258 5.37258 4 12 4H16V12H12C9.79086 12 8 13.7909 8 16V28H0Z" fill="currentColor"></path>
-          <path d="M20 28V16C20 9.37258 25.3726 4 32 4H36V12H32C29.7909 12 28 13.7909 28 16V28H20Z" fill="currentColor"></path>
-        </svg>
-        <blockquote class="index-stats-section__testimonial-text">
-          "הליווי האישי עשה את כל ההבדל. בכל שלב היה מישהו זמין לענות על שאלות ולהסביר — בדיוק מה שהייתי צריך כמשקיע מתחיל."
+      <!-- Testimonial 3 -->
+      <figure class="index-stats-quote-card">
+        <div class="index-stats-quote-mark" aria-hidden="true">“</div>
+        <blockquote>
+          <p>כקבלן, אני מעריך את המקצועיות והרצינות. הם בוחנים כל פרויקט לעומק, מה שמבטיח שרק העסקאות האיכותיות ביותר מגיעות לשולחן. ממליץ בחום לכל מי שמחפש השקעות נדל"ן איכותיות.</p>
         </blockquote>
-        <figcaption class="index-stats-section__testimonial-author">
-          <span class="index-stats-section__author-name">חבר מועדון</span>
-          <span class="index-stats-section__author-role">משקיע נדל"ן</span>
+        <figcaption>
+          <span class="index-stats-author">יוסי מזרחי</span>
+          <span class="index-stats-role">קבלן בניין</span>
         </figcaption>
       </figure>
 
     </div>
 
-  </div>
+    <!-- Supporting Image (Decorative) -->
+    <img class="index-stats-supporting-img" data-context="A premium, minimalist architectural detail shot of a modern residential building facade in Tel Aviv, Israel. The image showcases clean lines, warm golden-hour lighting, and deep green landscaping, evoking a sense of exclusivity, stability, and sophisticated urban investment." width="600" height="400" src="/assets/stepup-private-club-real-estate-investment-club-section-stats-index-stats-image-1.webp" alt="חזית בניין מגורים מודרני בתל אביב באור שקיעה זהוב" loading="lazy" decoding="async" fetchpriority="low">
 
-  <!-- Bottom Stepped Divider -->
-  <div class="index-stats-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,30 L200,30 L200,10 L400,10 L400,30 L600,30 L600,10 L800,10 L800,30 L1000,30 L1000,10 L1200,10 L1200,60 Z" fill="var(--bg-dark)"></path>
-    </svg>
   </div>
-
 </section>
 <section data-band-index="6" id="cta" class="index-cta-section" data-layout-spec="בית-cta">
   <div class="index-cta-section__container">
