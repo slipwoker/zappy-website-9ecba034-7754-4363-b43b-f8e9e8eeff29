@@ -6018,6 +6018,18 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     max-height: 320px;
   }
 }
+
+.index-hero-section .index-hero-section__btn--secondary {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+.index-hero-section .index-hero-section__btn {
+  line-height: 1 !important;
+  width: auto !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
