@@ -6367,6 +6367,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   line-height: 1;
   font-weight: 700;
 }
+
+.sp-benefits-section .sp-benefit-card {
+  direction: rtl;
+}
+
+.sp-benefits-section .sp-benefit-action {
+  order: 1;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
