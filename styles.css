@@ -6751,6 +6751,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   object-fit: cover;
   object-position: center;
 }
+
+.home-layout-section__image-wrapper.zrx,
+.home-layout-section__image-wrapper.zrx img,
+.home-layout-section__content-grid .zrx:not(.home-layout-section__step-item) {
+  opacity: 1 !important;
+  transform: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
