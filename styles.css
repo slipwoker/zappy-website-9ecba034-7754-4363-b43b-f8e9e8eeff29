@@ -6734,6 +6734,23 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: none;
 }
 }
+
+.home-layout-section__content-grid {
+  align-items: stretch;
+}
+
+.home-layout-section__image-wrapper {
+  align-self: stretch;
+  height: 100%;
+  min-height: 420px;
+  display: flex;
+}
+
+.home-layout-section__image-wrapper img {
+  flex: 1;
+  object-fit: cover;
+  object-position: center;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
