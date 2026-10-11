@@ -6781,6 +6781,32 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .sp-benefits-section .sp-benefits-title {
   margin-bottom: 36px;
 }
+
+.sp-benefits-section .sp-benefit-icon {
+  color: var(--secondary-color, var(--secondary, #C99A2E)) !important;
+}
+
+.sp-benefits-section .sp-benefit-card {
+  border: 2px solid var(--secondary-color, var(--secondary, #C99A2E)) !important;
+  background-color: #FFFDF6 !important;
+}
+
+.sp-benefits-section .sp-benefits-subtitle {
+  display: block !important;
+  font-size: 1.15rem !important;
+  color: #6E746B !important;
+  text-align: center !important;
+  margin: 0 0 40px 0 !important;
+  line-height: 1.6 !important;
+}
+
+.sp-benefits-section .sp-benefits-title {
+  margin-bottom: 16px !important;
+}
+
+.sp-benefits-section .sp-benefit-icon {
+  color: #6E746B !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
