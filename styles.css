@@ -6758,6 +6758,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   opacity: 1 !important;
   transform: none !important;
 }
+
+.index-features-section .index-feature-card {
+  flex-direction: row-reverse;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
